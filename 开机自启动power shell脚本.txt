@@ -1,0 +1,7 @@
+创建快捷方式放到启动文件夹
+右键点击脚本 num.ps1 → 创建快捷方式。
+右键点击刚创建的快捷方式 → 属性，在目标栏原有内容前添加 powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File ，最终目标格式如下：
+
+powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File "E:\num.ps1"
+
+按下 Win+R 输入 shell:startup 打开开机启动文件夹，把修改好的快捷方式拖进去即可。
